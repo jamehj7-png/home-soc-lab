@@ -1,0 +1,11 @@
+In this phase of the lab, the core network services were installed and configured on Windows Server to simulate a small enterprise environment.
+
+The following roles were deployed using the Add Roles and Features Wizard: Active Directory Domain Services (AD DS), DNS Server, and DHCP Server.
+
+The server was then promoted to a Domain Controller by creating a new Active Directory forest and defining a domain name for the lab environment. During this process, a Directory Services Restore Mode (DSRM) password was configured to allow recovery and maintenance operations if needed.
+
+After the domain controller was configured, the DNS service was automatically integrated with Active Directory to provide name resolution within the domain. A forward lookup zone was created for the domain to allow systems to locate network resources.
+
+Finally, the DHCP server was configured with a scope that automatically assigns IP addresses and network configuration settings to client machines. This allows devices in the lab network to receive IP addresses, gateway information, and DNS settings dynamically.
+
+These services form the foundation of the lab infrastructure and enable centralized authentication, network management, and communication between systems in the environment.
